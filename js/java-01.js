@@ -8,7 +8,7 @@ const personaje = prompt('cuantas balas vas a cojer para matar al dragon');
 
 
 if( 4 >= personaje ) {
-    console.log( 'lociento te mataron un dragon quedo vivo' );
+    console.log( 'lociento te mataron, un dragon quedo vivo' );
 }
 
 else {
