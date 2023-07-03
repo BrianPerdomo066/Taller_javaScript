@@ -7,11 +7,11 @@
 
 // Resultados esperados
 
-const numeros = [1, 5.2, 4, 0, -1];
+const numeros = [1, 5.2, 4, 0, -1]; 
 let suma = 0;
 console.log (numeros);
 
 for( let i = 0; i < numeros.length; i++ ) {
     suma +=  numeros[i];
 }
-console.log( suma );
+console.log( suma ); 
