@@ -18,8 +18,8 @@ let productosBaratos = (listaObjetc)=>{
     return listaNombres;
 }
 console.log(productosBaratos( productos = [
-    { nombre: "arroz", precio: 3 },
-    { nombre: "pan", precio: 8 },
-    { nombre: "tomate", precio: 12 },
-    { nombre: "leche", precio: 6 },
+    { nombre: "arroz", precio: 5 },
+    { nombre: "pan", precio: 3 },
+    { nombre: "tomate", precio: 8 },
+    { nombre: "leche", precio: 15 },
   ]));
