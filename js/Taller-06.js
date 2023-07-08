@@ -6,3 +6,24 @@
 
 // Nota: Sus puntos no están incluidos en la lista de puntos de su clase. ¡Para calcular el punto promedio, puede agregar su punto a la lista dada!
 
+let promedioMayor = (miNota,lista) =>{
+    
+    let suma = 0;
+    let promedio = 0;
+
+    for(let i = 0; i < lista.length; i++){
+        suma+=lista[i];
+    }
+
+    promedio = (suma + miNota ) / (lista.length + 1);
+    
+    if(miNota > promedio){
+      return true;
+    }
+    else{
+        return false;
+    }
+}
+console.log(promedioMayor(4, [4,4,5,5,5]));
+console.log(promedioMayor((4,5), [4,4,2,1,5]));
+console.log(promedioMayor(4, [1,4,5,5,1]));
